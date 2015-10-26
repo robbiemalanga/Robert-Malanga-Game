@@ -1,0 +1,32 @@
+.background    { background-image: url("http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/04/Screen-shot-2012-04-13-at-2.24.50-PM.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100);
+				  border-radius:20px; }
+.lava2          { background: #99DD00;}				  
+.wall          { background: white;
+			box-shadow: 8px -7px 18px white;   }
+.alien								{ 
+				background-image: url("http://fun.resplace.net/Emoticons/Alien/Alien.gif.pagespeed.ce.zwQN2xWY1j.gif");
+				}
+				
+.actor  { position: absolute;}
+.coin   { background: rgb(241, 229, 89);
+		width:10px;height:10px;border-radius:5px;}
+.player { background: #FF44BB;
+		   width:40px;height:40px;border-radius:20px; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
